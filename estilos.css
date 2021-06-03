@@ -77,3 +77,45 @@ button {
 .rosa {
     background-color: #FA80FE;
 }
+
+@media only screen and (min-width: 799px) and (max-width: 999px) {
+    .contenedor {
+        display: flex;
+        width: 60%;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .contenedor div {
+        width: 33.3%;
+        height: 130px;
+        opacity: 0.7;
+    }
+}
+
+@media only screen and (min-width: 599px) and (max-width: 799px) {
+    .contenedor {
+        display: flex;
+        width: 60%;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .contenedor div {
+        width: 33.3%;
+        height: 100px;
+        opacity: 0.7;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .contenedor {
+        display: flex;
+        width: 60%;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .contenedor div {
+        width: 33.3%;
+        height: 100px;
+        opacity: 0.7;
+    }
+}
