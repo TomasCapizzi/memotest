@@ -38,6 +38,7 @@ button {
     width: 45%;
     flex-wrap: wrap;
     height: 100%;
+    margin-top: 2rem;
 }
 
 .contenedor div {
@@ -84,6 +85,7 @@ button {
         width: 60%;
         flex-wrap: wrap;
         height: 100%;
+        margin-top: 2rem;
     }
     .contenedor div {
         width: 33.3%;
@@ -98,6 +100,7 @@ button {
         width: 60%;
         flex-wrap: wrap;
         height: 100%;
+        margin-top: 2rem;
     }
     .contenedor div {
         width: 33.3%;
@@ -112,6 +115,7 @@ button {
         width: 60%;
         flex-wrap: wrap;
         height: 100%;
+        margin-top: 2rem;
     }
     .contenedor div {
         width: 33.3%;
