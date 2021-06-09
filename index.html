@@ -10,12 +10,27 @@
 </head>
 
 <body>
+    <div id="inicio" class="start-game">
+        <h1>Memotest</h1>
+        <p>Vamos a jugar al Memotest! Selecciona la dificultad que quieres jugar:</p>
+        <div>
+            <button class="verde" id="btn-facil">Fácil</button>
+            <button class="azul" id="btn-medio">Intermedio</button>
+            <button class="rojo" id="btn-dificil">Difícil</button>
+        </div>
+    </div>
+    <div id="tablero" class="tablero oculto">
+        <div class="contenedor" id="contenedor">
+        </div>
 
-    <header class="resultado">
-        <h4 id="resultado"></h4>
-        <button class="oculto" id="play">Play Again</button>
-    </header>
-    <div class="contenedor" id="contenedor">
+    </div>
+
+    <div class="cont-modal" id="modal-contenedor">
+        <div class="modal">
+            <h3>Te has quedado sin movimientos</h3>
+            <p>¿Quieres volver a jugar?</p>
+            <button id="btn-modal" class="btn-modal">Play</button>
+        </div>
     </div>
 
 
